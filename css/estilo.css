@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+    /*cabeçalho*/
+body{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* { } */
+
+
+main section.banner .menu { /* menu*/
+    display: flex; /* flexbox (borda de cima)*/
+    
+}
+
+main section.banner .menu ul { 
+    margin: 1; /* margin = espaçamento externo */
+    list-style: none;  /*tira o marcador da lista*/
+    color: aliceblue;
+    margin: 25px;
+}
+
+main section.banner .menu ul li { 
+    display: inline-block; /*centraliza a lista ao lado*/
+    padding: 10px 51px; /* padding = espaçamento interno 10px pra cima e pra baixo, 15px pras laterais */
+    font-size: 25px;
+    
+    
+}
+
+main section.banner .menu ul li a { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none; /*tira o sublinhado*/
+    color: rgb(10, 6, 253);
+    
+
+}
+
+main section.banner { 
+    height: 950px; /* altura */
+    background-color: aqua; /* cor test */
+    background-image: url(../img/ima003.gif); /*imagen de fundo*/
+    background-repeat: no-repeat; /* imagem não vai repetir*/
+    background-size: cover; /* imagem nao vai cobrir todo elemento section*/
+    
+}
+
+main section.banner .container { 
+    display: flex;
+    justify-content: center; /*alinhamento horizontal para direita*/
+   align-items: center; /*alinhamento vertical centralizado*/
+    height: 600px;/*autura*/
+    list-style: none;  /*tira o marcador da lista*/
+    align-items: center;
+}
+
+/*Mexer um determinado item no local quer quiser usando tipo condenadas  */
+/*position: relative;
+/*height: 200px;/* mexe para cima e baixo*/
+/*width: 800px; /* mexe para esquerda e direita*/
+/* border: 1px solid black; )*/
+    
+
+
+main section.banner h1 {
+    font-size: 50px;
+    /*text-transform: lowercase; /*tuso com letra minuscula*/
+    color: white; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36); /*sombra no texto*/
+    padding: 100px;
+    margin: 0;
+    padding: 0;
+    
+ }
+
+main section.banner h2 {
+    font-size: 30px;
+    text-transform: lowercase; /*tudo com letra minuscula*/
+    color: white; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36); /*sombra no texto*/
+    padding: 0px; 
+    margin: 0px; /*espaço de linhas*/
+     
+ }
+
+main section.banner .container ul {
+    list-style: none;  /*tira o marcador da lista*/
+   /*  line-height: 0px; /* tira o espaçamento entre linhas */
+   
+}
+
+main section.mim { 
+    height: 1000px; /* altura */
+    width: 100%; /*largura*/
+    background-color: aqua; /* cor test */
+    background-image: url(../img/ima001.gif); /*imagen de fundo*/
+    background-repeat: no-repeat; /* imagem não vai repetir*/
+    background-size: cover; /* imagem nao vai cobrir todo elemento section*/
+    display: flex; /* flexbox (borda de cima)*/
+}
+
+
+main section.mim h1 {
+    font-size: 50px;
+    /*text-transform: lowercase; /*tuso com letra minuscula*/
+    color: white; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36); /*sombra no texto*/
+    /*padding: 50px;*/
+    margin: 0;
+    padding: 100px 90px 20px; /* padding = espaçamento interno 100px pra cima e pra baixo, 15px pras laterais */
+    
+}
+
+ main section.mim p {
+    font-size: 20px;
+    /*text-transform: lowercase; /*tuso com letra minuscula*/
+    color: white; 
+    padding: 110px;
+    margin: 0;
+    
+
+
+
+
+
+ }
+
+ /* { } */
+
+ 
