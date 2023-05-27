@@ -70,9 +70,9 @@ main section.banner h1 {
     /*text-transform: lowercase; /*tuso com letra minuscula*/
     color: white; 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36); /*sombra no texto*/
-    padding: 100px;
+    padding: 0px;
     margin: 0;
-    padding: 0;
+   
     
  }
 
@@ -95,38 +95,42 @@ main section.banner .container ul {
 main section.mim { 
     height: 1000px; /* altura */
     width: 100%; /*largura*/
-    background-color: aqua; /* cor test */
+    /*background-color: aqua; /* cor test */
     background-image: url(../img/ima001.gif); /*imagen de fundo*/
     background-repeat: no-repeat; /* imagem não vai repetir*/
     background-size: cover; /* imagem nao vai cobrir todo elemento section*/
     display: flex; /* flexbox (borda de cima)*/
 }
 
+.mim article {
+    /*border: 10px solid orange; /*borda somente para test*/
+    width: 800px ; /*largura do article*/
+    height: 800px; /* altura */
+    position: relative;
+    margin: 0px;
+    padding: 100px 80px ; /* padding = espaçamento interno 100px pra cima e pra baixo, 15px pras laterais */
+   
+ }
 
 main section.mim h1 {
     font-size: 50px;
     /*text-transform: lowercase; /*tuso com letra minuscula*/
     color: white; 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36); /*sombra no texto*/
-    /*padding: 50px;*/
-    margin: 0;
-    padding: 100px 90px 20px; /* padding = espaçamento interno 100px pra cima e pra baixo, 15px pras laterais */
+    margin: 0px;
+
     
+
 }
 
  main section.mim p {
     font-size: 20px;
+    font-weight: bold;
     /*text-transform: lowercase; /*tuso com letra minuscula*/
-    color: white; 
-    padding: 110px;
-    margin: 0;
-    
-
-
-
-
-
- }
+    color: rgb(255, 255, 255); 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36); /*sombra no texto*/
+    margin: 10px;
+}
 
  /* { } */
 
