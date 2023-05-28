@@ -119,8 +119,6 @@ main section.mim h1 {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36); /*sombra no texto*/
     margin: 0px;
 
-    
-
 }
 
  main section.mim p {
@@ -134,4 +132,12 @@ main section.mim h1 {
 
  /* { } */
 
- 
+ footer section.contato { 
+    height: 300px; /* altura */
+    background-color: aqua; /* cor test */
+    background-image: url(../img/contato.gif); /*imagen de fundo*/
+    background-repeat: no-repeat; /* imagem não vai repetir*/
+    background-size: cover; /* imagem nao vai cobrir todo elemento section*/
+    
+}
+
